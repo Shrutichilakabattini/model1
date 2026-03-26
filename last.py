@@ -106,7 +106,7 @@ display(HTML("""
 display(vbox)
 
 import sys
-!{sys.executable} -m pip install streamlit
+{sys.executable} -m pip install streamlit
 
 """Now, let's create a Streamlit application file. This code will write the Streamlit app to a file named `app.py`."""
 
